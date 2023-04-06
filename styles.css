@@ -1,0 +1,85 @@
+/* Styles for the NEWSBYTE website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.highlight {
+    display: inline;
+}
+
+.highlight-letter {
+    color: #ffcc00;
+}
+
+.menu-icon {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    bottom: 0;
+    padding-top: 20px;
+    width: 200px;
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+aside {
+    background-color: #f2f2f2;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    bottom: 0;
+    padding: 20px;
+    width: 200px;
+}
+
+#weather-container {
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+#news-section
